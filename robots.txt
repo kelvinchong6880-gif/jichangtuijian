@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kelvinchong6880-gif.github.io/jichangtuijian/sitemap.xml

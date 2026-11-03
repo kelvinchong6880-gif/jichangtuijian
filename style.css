@@ -1,0 +1,14 @@
+:root{--ink:#10243e;--text:#26313f;--muted:#5d6b7c;--line:#dbe2ea;--bg:#f6f8fa;--card:#fff;--sign:#ffc727;--link:#0b5cad}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--link)}.wrap{max-width:1160px;margin:0 auto;padding:0 16px}
+.top{background:var(--ink)}.top .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding-top:12px;padding-bottom:12px}
+.brand{color:#fff;font-weight:700;text-decoration:none;margin-right:auto}.top nav a{color:#dfe7f0;text-decoration:none;margin-left:14px;font-size:15px}.top nav a:first-child{margin-left:0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:22px;padding-top:22px;padding-bottom:30px}
+main{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 26px;min-width:0}h1{font-size:30px;line-height:1.35;margin:0 0 10px;color:var(--ink)}h2{font-size:22px;line-height:1.4;margin:28px 0 4px;color:var(--ink);scroll-margin-top:12px}h3{font-size:18px;margin:20px 0 2px;color:var(--ink)}
+.lead{font-size:17px}.meta,.sec{color:var(--muted);font-size:14px}.sec{margin-top:0}
+.tbl{overflow-x:auto;margin:12px 0}table{border-collapse:collapse;width:100%;font-size:14.5px}caption{text-align:left;font-weight:700;padding-bottom:6px;color:var(--ink)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}th{background:#eef2f6;white-space:nowrap}
+details{border:1px solid var(--line);border-radius:6px;padding:8px 12px;margin:8px 0}summary{font-weight:700;cursor:pointer}details p{margin:6px 0 2px}
+aside{position:sticky;top:12px;align-self:start}.toc,.sogo{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:14px;font-size:14px}.toc-t,.sogo-t{font-weight:700;margin:0 0 6px;color:var(--ink)}.toc ol{margin:0;padding-left:18px;max-height:42vh;overflow-y:auto}.toc a{text-decoration:none}
+.sogo{background:var(--ink);color:#fff}.sogo .sogo-t{color:var(--sign)}.btn{display:block;text-align:center;background:var(--sign);color:var(--ink);font-weight:700;padding:8px;border-radius:6px;text-decoration:none}
+footer{background:var(--ink);color:#c7d2df;font-size:14px}footer a{color:#fff}footer p{margin:0;padding:16px 0}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}aside{position:static;order:-1}.toc{display:none}main{padding:18px 16px}h1{font-size:25px}}
